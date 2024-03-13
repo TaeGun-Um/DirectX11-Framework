@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="TextureShader.hlsl" />
+    <FxCompile Include="MergeShader.hlsl" />
+    <FxCompile Include="DebugMeshRender.hlsl" />
+    <FxCompile Include="TileMapShader.hlsl" />
+    <FxCompile Include="MeshTexture.hlsl" />
+    <FxCompile Include="MeshAniTexture.hlsl" />
+    <FxCompile Include="Transform.fx">
+      <Filter>Header</Filter>
+    </FxCompile>
+    <FxCompile Include="Animation.fx">
+      <Filter>Header</Filter>
+    </FxCompile>
+    <FxCompile Include="Light.fx">
+      <Filter>Header</Filter>
+    </FxCompile>
+    <FxCompile Include="MeshColor.hlsl" />
+    <FxCompile Include="RenderBaseValue.fx">
+      <Filter>Header</Filter>
+    </FxCompile>
+    <FxCompile Include="GridShader.hlsl" />
+    <FxCompile Include="MeshAniTextureDeferred.hlsl" />
+    <FxCompile Include="DeferredCalLight.hlsl">
+      <Filter>Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredMerge.hlsl">
+      <Filter>Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="BlurShader.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="BloomShader.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="BloomBlur.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="MeshColorDeferred.hlsl" />
+    <FxCompile Include="DeferredPostLight.hlsl">
+      <Filter>Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="MeshTextureDeferred.hlsl" />
+    <FxCompile Include="MeshTextureAlpha.hlsl" />
+    <FxCompile Include="Particle.hlsl">
+      <Filter>Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleUpdate.hlsl">
+      <Filter>Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleHeader.fx">
+      <Filter>Particle</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{b927653f-324e-491f-ab06-2b8af775d3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deferred">
+      <UniqueIdentifier>{18ee753b-e792-4a73-b058-d035f55577dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostEffect">
+      <UniqueIdentifier>{2ab93c4e-7dd2-4b7e-ba7a-927a719410d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadow">
+      <UniqueIdentifier>{789f86c1-695b-436f-8d40-8d29dd7c4495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{50a4372c-0e7f-4161-84d8-5268ebf533f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shadow.hlsl">
+      <Filter>Shadow</Filter>
+    </None>
+  </ItemGroup>
+</Project>
